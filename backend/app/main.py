@@ -3,7 +3,7 @@ from app import file_handler, summarizer, config, schemas
 import os
 from uuid import uuid4
 from app.config import db
-
+# from app.route import router
 
 app = FastAPI()
 
