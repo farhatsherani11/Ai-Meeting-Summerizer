@@ -4,7 +4,9 @@ import os
 from uuid import uuid4
 from app.config import db
 
+
 app = FastAPI()
+
 
 @app.on_event("startup")
 async def startup_db_check():
