@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { BrowserRouter } from 'react-router-dom'; // ✅ Add this
 
-const clerkFrontendApi = 'pk_test_c3dlZXBpbmctbGFtcHJleS03OS5jbGVyay5hY2NvdW50cy5kZXYk';
+const clerkFrontendApi = 'pk_test_c3dlZXBpbmctbGFtcHJleS03OS5jbGVyay5hY2NvdW50cy5kZXYk'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
