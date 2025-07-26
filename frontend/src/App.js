@@ -3,7 +3,7 @@ import React from "react";
 import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
 import MainPage from "./MainPage";
 
-const App = () => {
+ function App() {
   return (
     <>
       <SignedIn>
