@@ -6,7 +6,7 @@ export default function Page() {
             <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
             <img
                 alt=""
-                src= "image"
+                src= "/download11.jpg"
                 className="absolute inset-0 h-full w-full object-cover opacity-80"
             />
 
