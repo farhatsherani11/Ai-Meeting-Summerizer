@@ -1,6 +1,6 @@
 // src/MainPage.js
 import React from "react";
-
+import { UserButton } from "@clerk/clerk-react";
 const MainPage = () => {
   return (
     <div id="webcrumbs">
@@ -26,7 +26,7 @@ const MainPage = () => {
 	              <div className="w-10 h-10 rounded-full bg-primary-700 flex items-center justify-center border-2 border-primary-500 overflow-hidden">
 	                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MzkyNDZ8MHwxfHNlYXJjaHwxfHx1c2VyfGVufDB8fHx8MTc1MzI5MjczOXww&ixlib=rb-4.1.0&q=80&w=1080" alt="User profile" className="w-full h-full object-cover" keywords="user, profile, avatar, person" />
 	              </div>
-	              <span className="hidden md:inline-block font-medium">John Doe</span>
+	              <span className="hidden md:inline-block font-medium">  <UserButton afterSignOutUrl="/" /></span>
 	              <span className="material-symbols-outlined text-gray-400 group-open:rotate-180 transition-transform">expand_more</span>
 	            </summary>
 	            <div className="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 shadow-lg rounded-md py-1 z-10">
