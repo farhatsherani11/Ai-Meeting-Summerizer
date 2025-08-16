@@ -5,7 +5,8 @@ import motor.motor_asyncio
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(".env.local")
+
 
 # Get MongoDB URI from .env
 MONGO_URI = os.getenv("MONGO_URI")
